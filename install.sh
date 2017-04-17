@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apt-get install hostapd isc-dhcp-server
+apt-get install hostapd isc-dhcp-server dsniff sslstrip
 
 update-rc.d isc-dhcp-server remove
 update-rc.d hostapd remove
