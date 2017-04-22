@@ -10,4 +10,4 @@ iptables -t nat -A POSTROUTING -o usb0 -j MASQUERADE
 
 /etc/init.d/isc-dhcp-server start
 
-/usr/sbin/hostapd -P /var/run/hostapd.pid -B ./etc/hostapd.conf
+/usr/sbin/hostapd -P /var/run/hostapd.pid -B /etc/rogueap/hostapd.conf
